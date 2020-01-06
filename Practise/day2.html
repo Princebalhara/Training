@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+div{
+    height: 30px;
+    width: 30px;
+    color: darkorange;
+    animation: square 3s infinite;
+    position: relative;
+
+}
+@Keyframes square{
+    0%{
+        background-color: darkorchid;
+        transform: translateX(0px);
+        transition: ease-in;
+        
+        
+    }
+    25%{
+        background-color:darkred;
+        transform: translateX(200px);
+        
+    }
+    50%{
+        background-color:darkturquoise;
+        transform: rotate(45deg);
+        
+        
+    }
+    100%{
+        background-color:dimgrey;
+        transform:skew(45deg)
+        
+    }
+
+}
+</style>
+
+</head>
+
+<body>
+    <div></div>
+</body>
+</html>
